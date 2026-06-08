@@ -1,5 +1,7 @@
 # Telemetria com Buffer Circular — versão cliente-servidor
 
+> **Autores:** Silvio Fittipaldi, Bernardo Heuer e Rodrigo Nunes
+
 Comparação prática entre **alocação dinâmica O(n)** (anti-padrão) e **buffer
 circular O(1)** para um fluxo de telemetria de alta frequência, com transmissão
 **MQTT**, modelo **produtor-consumidor**, instrumentação de tempo/memória,
@@ -37,7 +39,7 @@ No mesmo espírito da adaptação ESP32 → cliente-servidor:
 - **Compilador C++17** (testado com TDM-GCC/MinGW `g++` 10.3). `cmake` é opcional.
 - **Docker Desktop** (broker Mosquitto + Node-RED).
 - **Python 3** com `pandas` e `matplotlib` (para os gráficos).
-- *(Opcional)* uma distribuição **LaTeX** (`pdflatex`) para compilar o relatório.
+- *(Opcional)* uma distribuição **LaTeX** (`pdflatex`) ou **Tectonic** para o relatório.
 
 ## Estrutura
 
