@@ -1,0 +1,14 @@
+# Build do cliente C++
+cliente/build/
+
+# Artefatos Python
+__pycache__/
+*.pyc
+
+# LaTeX
+relatorio/*.aux
+relatorio/*.log
+relatorio/*.out
+relatorio/*.bbl
+relatorio/*.blg
+relatorio/*.toc
